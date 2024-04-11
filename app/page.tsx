@@ -1,7 +1,7 @@
-import Hero from "@/components/Hero";
-import AboutMe from "@/components/AboutMe";
-import Services from "@/components/Services";
-import Experience from "@/components/Experience";
+import Hero from "@/components/sections/Hero";
+import AboutMe from "@/components/sections/AboutMe";
+import Services from "@/components/sections/Services";
+import Experience from "@/components/sections/Experience";
 
 export default function Home() {
   return (

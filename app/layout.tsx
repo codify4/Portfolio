@@ -3,8 +3,8 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { cn } from "../lib/utils";
 
-import FloatingNav from "../components/FloatingNav";
-import Footer from "../components/Footer";
+import FloatingNav from "../components/sections/FloatingNav";
+import Footer from "../components/sections/Footer";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
