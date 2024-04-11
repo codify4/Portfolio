@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "../lib/utils";
 
 import FloatingNav from "../components/FloatingNav";
+import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, "bg-black")}>
-        <FloatingNav navItems={[{ name: "Home", link: "/" }, { name: "About", link: "/about"}]} />
+      <body className={cn(inter.className, "flex flex-col bg-black")}>
+        <FloatingNav
+          navItems={[
+            { name: "Home", link: "hero" },
+            { name: "Experience", link: "experience" },
+            { name: "Services", link: "services" },
+            { name: "About", link: "about" },
+          ]}
+        />
         {children}
+        <Footer />
       </body>
     </html>
   );
