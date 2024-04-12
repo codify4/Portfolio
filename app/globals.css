@@ -8,4 +8,8 @@
       --secondary-accent: #DC143C;
       --accent-foreground: #ffffff;
     }
+
+    .text-gradient {
+      @apply bg-gradient-to-r from-red-800 via-red-600 to-red-500 bg-clip-text text-transparent
+    }
   }
