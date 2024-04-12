@@ -21,7 +21,7 @@ export const techLogos = [
   },
   {
     name: "Next.js",
-    logo: '/next-js.svg'
+    logo: '/nextjs-w.webp'
   },
   {
     name: "React",
@@ -29,7 +29,7 @@ export const techLogos = [
   },
   {
     name: "Tailwind",
-    logo: '/tailwind.svg'
+    logo: '/tailwindcss.svg'
   },
   {
     name: "Typescript",
@@ -41,7 +41,7 @@ export const techLogos = [
   },
   {
     name: "Shadcn UI",
-    logo: '/shadcn-ui.svg'
+    logo: '/shadcn-w.png'
   },
   {
     name: "Aceternity",
@@ -53,36 +53,24 @@ export const techLogos = [
   },
   {
     name: "GitHub",
-    logo: '/github.svg'
+    logo: '/github-w2.svg'
   },
   {
     name: "Git",
     logo: '/git.svg'
   },
   {
-    name: "Visual Studio Code",
+    name: "VS Code",
     logo: '/vscode.svg'
   },
   {
     name: "ChatGPT",
-    logo: '/chatgpt-6.svg'
+    logo: '/chatgpt.png'
   },
   {
     name: "Codeium",
     logo: '/codeium.svg'
   },
-  {
-    name: "Node.js",
-    logo: '/nodejs.svg'
-  },
-  {
-    name: "MongoDB",
-    logo: '/mongodb.svg'
-  },
-  {
-    name: "NPM",
-    logo: '/npm.svg'
-  }
 ]
 
 export const socials = ["instagram.svg", "linkedin.svg"];

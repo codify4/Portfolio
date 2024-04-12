@@ -1,15 +1,15 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
-  @layer base {
-    :root {
-      --accent: #880808;
-      --secondary-accent: #DC143C;
-      --accent-foreground: #ffffff;
-    }
-
-    .text-gradient {
-      @apply bg-gradient-to-r from-red-800 via-red-600 to-red-500 bg-clip-text text-transparent
-    }
+@layer base {
+  :root {
+    --accent: #880808;
+    --secondary-accent: #DC143C;
+    --secondary-bg: hsl(0, 0%, 5%);
   }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-red-800 via-red-600 to-red-500 bg-clip-text text-transparent
+  }
+}

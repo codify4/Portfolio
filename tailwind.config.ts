@@ -27,7 +27,7 @@ const config = {
       colors: {
         accent: "var(--accent)",
         secondaryAccent: "var(--secondary-accent)",
-        accentForeground: "var(--accent-foreground)",
+        secondaryBg: "var(--secondary-bg)",
       },
       borderRadius: {
         lg: "var(--radius)",
