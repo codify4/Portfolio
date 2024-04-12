@@ -5,11 +5,14 @@
 @layer base {
   :root {
     --accent: #880808;
-    --secondary-accent: #DC143C;
-    --secondary-bg: hsl(0, 0%, 5%);
+    --secondary-accent: #dd002c;
+    --secondary-bg: hsl(0, 0%, 10%);
   }
 
   .text-gradient {
     @apply bg-gradient-to-r from-red-800 via-red-600 to-red-500 bg-clip-text text-transparent
+  }
+  .border-gradient {
+    @apply bg-gradient-to-r from-red-700 via-red-400 to-orange-700
   }
 }

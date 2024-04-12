@@ -7,7 +7,7 @@ type TechCardProps = {
 
 const TechCard = ({ name, logo }: TechCardProps) => {
   return (
-    <div className="flex flex-col items-center justify-center w-[150px] h-[150px] bg-secondaryBg rounded-xl">
+      <div className="flex flex-col items-center justify-center w-[150px] h-[150px] bg-secondaryBg rounded-xl">
         <Image
           src={logo}
           alt={name}
@@ -16,7 +16,7 @@ const TechCard = ({ name, logo }: TechCardProps) => {
           className="m-2"
         />
         <span className="text-white">{name}</span>
-    </div>
+      </div>
   )
 }
 
