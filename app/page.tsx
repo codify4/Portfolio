@@ -4,14 +4,21 @@ import Services from "@/components/sections/Services";
 import Experience from "@/components/sections/Experience";
 import Skills from "@/components/sections/Skills";
 
-export default function Home() {
+import DotBackgroundDemo from "../components/staticBg";
+
+const Home = () => {
   return (
-    <main>
+    <main className="flex flex-col justify-center">
       <Hero />
-      <AboutMe />
-      <Skills />
-      <Experience />
-      <Services />
+      <DotBackgroundDemo>
+        <AboutMe />
+        <Skills />
+        <Experience />
+        <Services />
+      </DotBackgroundDemo>
     </main>
   );
 }
+
+
+export default Home

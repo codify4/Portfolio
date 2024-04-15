@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div id="about" className="ml-[150px] w-10/12 h-[500px] text-white">
       <FadeInOnScroll duration={0.5}>
-        <h1 className="p-5 text-6xl font-bold">About Me</h1>
+        <h1 className="p-5 text-6xl font-bold ml-[84px]">About Me</h1>
       </FadeInOnScroll>
 
       <FadeInOnScroll duration={0.4}>

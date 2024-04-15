@@ -8,67 +8,99 @@ export function cn(...inputs: ClassValue[]) {
 export const techLogos = [
   {
     name: "HTML",
-    logo: '/html.svg'
+    logo: '/html.png',
+    width: 90,
+    height: 90,
   },
   {
     name: "CSS",
-    logo: '/css.svg'
+    logo: '/css.png',
+    width: 90,
+    height: 90,
   },
   {
     name: "JavaScript",
-    logo: '/javascript.svg'
+    logo: '/js.png',
+    width: 90,
+    height: 90,
   },
   {
     name: "Next.js",
-    logo: '/nextjs-w.webp'
+    logo: '/nextjs-w.webp',
+    width: 90,
+    height: 90,
   },
   {
     name: "React",
-    logo: '/react.svg'
+    logo: '/react.png',
+    width: 90,
+    height: 90,
   },
   {
     name: "Tailwind",
-    logo: '/tailwindcss.svg'
+    logo: '/tailwind.png',
+    width: 105,
+    height: 105,
   },
   {
     name: "Typescript",
-    logo: '/typescript.svg'
+    logo: '/ts.png',
+    width: 90,
+    height: 90,
   },
   {
     name: "Framer Motion",
-    logo: '/fMotion.png'
+    logo: '/fMotion.png',
+    width: 90,
+    height: 90,
   },
   {
-    name: "Shadcn UI",
-    logo: '/shadcn-w.png'
+    name: "ShadcnUI",
+    logo: '/shadcn-w.png',
+    width: 90,
+    height: 90,
   },
   {
-    name: "Aceternity",
-    logo: '/aceternity.png'
+    name: "AceternityUi",
+    logo: '/aceternity.png',
+    width: 100,
+    height: 100,
   },
   {
     name: "Vercel",
-    logo: '/vercel.svg'
+    logo: '/vercel.svg',
+    width: 90,
+    height: 90,
   },
   {
     name: "GitHub",
-    logo: '/github-w2.svg'
+    logo: '/github-w2.svg',
+    width: 150,
+    height: 150,
   },
   {
     name: "Git",
-    logo: '/git.svg'
+    logo: '/git.svg',
+    width: 100,
+    height: 100,
   },
   {
     name: "VS Code",
-    logo: '/vscode.svg'
+    logo: '/vscode.svg',
+    width: 100,
+    height: 100,
   },
   {
     name: "ChatGPT",
-    logo: '/chatgpt.png'
+    logo: '/chatgpt.png',
+    width: 100,
+    height: 100,
   },
   {
     name: "Codeium",
-    logo: '/codeium.svg'
+    logo: '/codeium.svg',
+    width: 100,
+    height: 100,
   },
 ]
 

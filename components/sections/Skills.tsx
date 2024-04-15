@@ -1,15 +1,24 @@
-import TechCard from "../TechCard"
-import { techLogos } from "../../lib/utils"
+"use client"
 
-//TODO: Align the cards to the center and also add fade in animation
+import { InfiniteMovingCards } from "../infiniteMovingCards"
+import { techLogos } from "../../lib/utils"
+import FadeInOnScroll from "../FadeIn"
+
+//TODO: add fade in animation
 const Skills = () => {
   return (
-    <div id="skills" className="flex flex-col ml-[200px] w-[700px]">
-        <h1 className="text-6xl text-white font-bold">Skills</h1>
+    <div id="skills" className="flex flex-col w-[1200px]">
+        <FadeInOnScroll duration={0.5}>
+          <h1 className="text-6xl text-white font-bold">Skills</h1>
+        </FadeInOnScroll>
 
-        <div className="grid grid-cols-3 gap-y-5 gap-x-10 m-4 justify-center items-center">
-            {techLogos.map((tech) => <TechCard name={tech.name} logo={tech.logo} />)}
-        </div>
+        <FadeInOnScroll duration={0.4}>
+          <InfiniteMovingCards
+            items={techLogos}
+            className="mt-10 flex flex-row gap-10"
+            speed="slow"
+          />
+        </FadeInOnScroll>
     </div>
   )
 }
