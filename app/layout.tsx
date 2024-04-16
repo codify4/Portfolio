@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { cn } from "../lib/utils";
+import { Analytics } from "@vercel/analytics/react"
 
 import FloatingNav from "../components/sections/FloatingNav";
 import Footer from "../components/sections/Footer";
@@ -26,12 +27,13 @@ export default function RootLayout({
             { name: "Home", link: "hero" },
             { name: "About Me", link: "about" },
             { name: "Skills", link: "skills" },
-            { name: "Experience", link: "experience" },
+            { name: "Projects", link: "projects" },
             { name: "Services", link: "services" },
             
           ]}
         />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
