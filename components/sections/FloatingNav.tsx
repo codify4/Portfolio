@@ -59,12 +59,14 @@ const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
-        <button
-          className="bg-gradient-to-r from-red-600 to-red-900 text-sm font-medium relative text-white px-4 py-2 rounded-full transition-colors duration-200 ease-in-out hover:bg-gradient-to-r hover:from-red-700 hover:to-red-950"
-        >
-          <span>Email Me</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px   h-px" />
-        </button>
+        <a href={`mailto:${process.env.EMAIL}`} target="_blank" >
+          <button
+            className="bg-gradient-to-r from-red-600 to-red-900 text-sm font-medium relative text-white px-4 py-2 rounded-full transition-colors duration-200 ease-in-out hover:bg-gradient-to-r hover:from-red-700 hover:to-red-950"
+          >
+            <span>Email Me</span>
+            <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px   h-px" />
+          </button>
+        </a>
       </motion.div>
     </AnimatePresence>
   );
