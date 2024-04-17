@@ -20,7 +20,7 @@ const AboutMe = () => {
 
           <div className="w-[400px] mx-10 ">
             <p>
-              I am a software developer from Albania who loves building things, because I thing the best way to learn is by doing.
+              I am a software developer from Albania who loves building things, because I think the best way to learn is by doing.
               Coding is the path I have chosen that will lead me to my goals. <br/>
               I want to become someone that is able to change the world and help others with my skillset.
             </p>
