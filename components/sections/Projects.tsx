@@ -1,7 +1,15 @@
+import { projects } from '@/lib/utils';
+import { ParallaxScrollSecond } from "../parallax-scroll";
+import FadeInOnScroll  from "../FadeIn";
 
 const Projects = () => {
   return (
-    <div id="projects" className="text-white">Projects</div>
+    <FadeInOnScroll duration={0.5}>
+      <div id='projects' className='text-white'>
+        <h1 className='text-6xl font-bold'>Projects</h1>
+        <ParallaxScrollSecond images={projects} className='mt-2' />;
+      </div>
+    </FadeInOnScroll>
   )
 }
 
