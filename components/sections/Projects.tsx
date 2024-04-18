@@ -5,7 +5,7 @@ import FadeInOnScroll  from "../FadeIn";
 const Projects = () => {
   return (
     <FadeInOnScroll duration={0.5}>
-      <div id='projects' className='text-white'>
+      <div id='projects' className='text-white w-[1200px] mt-14'>
         <h1 className='text-6xl font-bold'>Projects</h1>
         <ParallaxScrollSecond images={projects} className='mt-2' />;
       </div>
