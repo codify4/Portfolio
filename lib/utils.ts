@@ -100,7 +100,7 @@ export const techLogos = [
 
 export const projects = [
   { src: "/projects/toDo.png", alt: "ToDo App", width: 300, height: 400 },
-  { src: "/projects/expenseT.PNG", alt: "Expenses Tracker", width: 300, height: 700 },
+  { src: "/projects/expenseT.png", alt: "Expenses Tracker", width: 300, height: 700 },
   { src: "/projects/mountainL.png", alt: "Mountain View", width: 700, height: 300 },
   { src: "/projects/movies.png", alt: "Films Catalog", width: 400, height: 300 },
   { src: "/projects/speechRec.png", alt: "Speech Analyzer", width: 400, height: 297 },
