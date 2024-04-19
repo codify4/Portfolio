@@ -1,4 +1,5 @@
 import { ClassValue, clsx } from "clsx";
+import { link } from "fs";
 import { twMerge } from "tailwind-merge";
  
 export function cn(...inputs: ClassValue[]) {
@@ -107,4 +108,9 @@ export const projects = [
   { src: "/projects/bank.png", alt: "Bank Accounts", width: 409, height: 476 },
 ]
 
-export const socials = ["instagram.svg", "linkedin.svg"];
+export const socials = [
+  { name: "Instagram", icon: "/socials/ig.png", link: "https://www.instagram.com/k_ijon4/", width: 70, height: 70 },
+  { name: "LinkedIn", icon: "/socials/linkedin.svg", link: "https://www.linkedin.com/in/ijon-kushta-80551a2a7/", width: 50, height: 50 },
+  { name: "X", icon: "/socials/x.svg", link: "https://twitter.com/Ijon_k4", width: 50, height: 50 },
+  { name: "Gihub", icon: "/socials/github.svg", link: "https://github.com/codify4", width: 50, height: 50 },
+];

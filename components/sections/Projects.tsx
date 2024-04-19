@@ -7,7 +7,7 @@ const Projects = () => {
     <FadeInOnScroll duration={0.5}>
       <div id='projects' className='text-white w-[1200px] mt-14'>
         <h1 className='text-6xl font-bold'>Projects</h1>
-        <ParallaxScrollSecond images={projects} className='mt-2' />;
+        <ParallaxScrollSecond images={projects} className='mt-2' />
       </div>
     </FadeInOnScroll>
   )
