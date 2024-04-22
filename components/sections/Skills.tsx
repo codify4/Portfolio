@@ -4,10 +4,9 @@ import { InfiniteMovingCards } from "../infiniteMovingCards"
 import { techLogos } from "../../lib/utils"
 import FadeInOnScroll from "../FadeIn"
 
-//TODO: add fade in animation
 const Skills = () => {
   return (
-    <div id="skills" className="flex flex-col xl:w-[1200px] md:w-[800px]">
+    <div id="skills" className="flex flex-col xl:w-[1200px] md:w-[800px] w-[400px] mt-[150px]">
         <FadeInOnScroll duration={0.5}>
           <h1 className="text-6xl text-white font-bold">Skills</h1>
         </FadeInOnScroll>
