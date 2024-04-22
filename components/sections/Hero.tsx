@@ -8,11 +8,11 @@ const Hero = () => {
 
   return (
     <div id="hero" className="bg-black text-white">
-        <HeroHighlight className="flex flex-row items-center justify-center text-6xl 2xl:gap-x-[500px] xl:gap-x-[100px] md:gap-x-[100px] xl:px-[100px] lg:px-[200px]">
-          <div className="flex flex-col xl:w-full md:w-[600px] items-start gap-y-2">
+        <HeroHighlight className="flex md:flex-row flex-col items-center justify-center text-6xl 2xl:gap-x-[500px] xl:gap-x-[100px] md:gap-x-[100px] xl:px-[100px] lg:px-[200px] gap-y-10">
+          <div className="flex flex-col xl:w-full md:w-[600px] w-[400px] items-start gap-y-2">
             <span className="font-bold">Hello,</span>
-            <span className="font-bold w-[600px]"> I am Ijon Kushta </span>
-            <Highlight className="xl:w-[700px] md:w-[360px] text-6xl rounded-[20px] font-bold ">Front-End Developer</Highlight>
+            <span className="font-bold xl:w-[600px] md:w-[300px] text-6xl"> I am Ijon Kushta </span>
+            <Highlight className="xl:w-[700px] md:w-[360px] w-[350px] text-6xl rounded-[20px] font-bold">Front-End Developer</Highlight>
             
             <a href={`mailto:${process.env.EMAIL}`} target="_blank" >
               <Button />
