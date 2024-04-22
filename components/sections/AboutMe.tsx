@@ -3,13 +3,13 @@ import FadeInOnScroll from "../FadeIn"
 
 const AboutMe = () => {
   return (
-    <div id="about" className="ml-[150px] xl:w-10/12 md:w-[1000px] h-[500px] text-white">
+    <div id="about" className="xl:ml-[150px] md:ml-[150px] sm:ml-0 xl:w-10/12 md:w-[1000px] w-[400px] h-[500px] text-white">
       <FadeInOnScroll duration={0.5}>
         <h1 className="p-5 text-6xl font-bold xl:ml-[98px]">About Me</h1>
       </FadeInOnScroll>
 
       <FadeInOnScroll duration={0.4}>
-        <div className="flex flex-row items-center justify-center">
+        <div className="flex xl:flex-row md:flex-row flex-col xl:items-center xl:justify-center md:items-center md:justify-center items-center gap-y-5">
           <div className="w-[200px]">
             <Avatar className="w-[200px] h-[200px]">
               <AvatarImage src="/pfp.jpg" />
@@ -17,7 +17,7 @@ const AboutMe = () => {
             </Avatar>
           </div>
 
-          <div className="w-[400px] mx-10 ">
+          <div className="xl:w-[400px] md:w-[400px] sm:w-[300px] xl:mx-10 md:mx-10 sm:mx-0 ">
             <p>
               I am a software developer from Albania who loves building things, because I think the best way to learn is by doing.
               Coding is the path I have chosen that will lead me to my goals. <br/>
