@@ -21,7 +21,7 @@ const Projects = () => {
       <div id='projects' className='text-white xl:w-[1200px] md:w-[800px] w-[400px] mt-14'>
         <h1 className='text-6xl font-bold mb-10'>Projects</h1>
         {window.innerWidth > 680 ? (
-          <ParallaxScrollSecond images={projects} className='mt-2' />
+          <ParallaxScrollSecond images={projects} />
         ) : (
           <div>
             {projects.map((image, index) => (

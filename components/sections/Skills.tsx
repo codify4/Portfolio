@@ -6,7 +6,7 @@ import FadeInOnScroll from "../FadeIn"
 
 const Skills = () => {
   return (
-    <div id="skills" className="flex flex-col xl:w-[1200px] md:w-[800px] w-[400px] mt-[150px]">
+    <div id="skills" className="flex flex-col xl:w-[1200px] md:w-[800px] w-[400px] xl:mt-[-50px] md:mt-0 mt-[150px]">
         <FadeInOnScroll duration={0.5}>
           <h1 className="text-6xl text-white font-bold">Skills</h1>
         </FadeInOnScroll>
