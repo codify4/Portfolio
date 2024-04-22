@@ -3,9 +3,9 @@ import FadeInOnScroll from "../FadeIn"
 
 const AboutMe = () => {
   return (
-    <div id="about" className="ml-[150px] w-10/12 h-[500px] text-white">
+    <div id="about" className="ml-[150px] xl:w-10/12 md:w-[1000px] h-[500px] text-white">
       <FadeInOnScroll duration={0.5}>
-        <h1 className="p-5 text-6xl font-bold ml-[84px]">About Me</h1>
+        <h1 className="p-5 text-6xl font-bold xl:ml-[98px]">About Me</h1>
       </FadeInOnScroll>
 
       <FadeInOnScroll duration={0.4}>
