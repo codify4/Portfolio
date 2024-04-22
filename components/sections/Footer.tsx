@@ -30,7 +30,7 @@ const Footer = () => {
       <FadeInOnScroll duration={0.7}>
         <div>
           <a href={`mailto: ${process.env.EMAIL}`} target="_blank">
-            <Button />
+            <Button title="Email Me" />
           </a>
         </div>
       </FadeInOnScroll>
