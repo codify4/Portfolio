@@ -1,4 +1,4 @@
-import Button from './Button'
+import ButtonX from './ButtonX'
 import { ShieldCheck } from 'lucide-react';
 
 type CardProps = {
@@ -28,7 +28,7 @@ const Card = ({ services }: CardProps) => {
               ))}
             </ul>
             <a href={`mailto: ${process.env.EMAIL}`} target="_blank">
-              <Button title="Email Me" />
+              <ButtonX title="Email Me" />
             </a>
           </div>
         </div>

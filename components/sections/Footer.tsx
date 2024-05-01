@@ -1,5 +1,5 @@
 import { socials } from "@/lib/utils"
-import Button from "../Button"
+import Button from "../ButtonX"
 import { SocialIcon } from "react-social-icons"
 import FadeInOnScroll from "../FadeIn"
 

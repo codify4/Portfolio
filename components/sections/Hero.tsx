@@ -1,6 +1,6 @@
 "use client"
 import { HeroHighlight, Highlight } from "../DotBg"
-import Button from "../Button"
+import ButtonX from "../ButtonX"
 
 const Hero = () => {
   
@@ -15,7 +15,7 @@ const Hero = () => {
             <Highlight className="xl:w-[805px] md:w-[805px] w-[350px] rounded-[20px] font-bold">Front-End Developer</Highlight>
             
             <a href={`mailto:${process.env.EMAIL}`} target="_blank" >
-              <Button title="Email Me"/>
+              <ButtonX title="Email Me"/>
             </a>
           </div>
         </HeroHighlight>
