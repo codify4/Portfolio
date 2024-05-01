@@ -37,7 +37,6 @@ const FloatingNav = ({
     setIsSheetOpen(!isSheetOpen);
   };
 
- 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     setVisible(true);
   });
