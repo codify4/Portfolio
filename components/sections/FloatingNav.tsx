@@ -31,12 +31,12 @@ const FloatingNav = ({
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();
-  const [isOpen, setIsOpen] = useState(false); // toggle menu
   const [visible, setVisible] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
+  const toggleSheet = () => {
+    setIsSheetOpen(!isSheetOpen);
   };
+
  
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     setVisible(true);
@@ -84,13 +84,18 @@ const FloatingNav = ({
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="md:hidden text-white z-[5000]" size="icon" variant="default">
+          <Button 
+            className="md:hidden text-white z-[5000] absolute top-4 right-4" 
+            size="icon" 
+            variant="default"
+            onClick={toggleSheet}
+          > 
             <MenuIcon className="h-6 w-6" />
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="bg-black bg-opacity-80">
+        <SheetContent side="right" className="bg-black bg-opacity-95 z-[6000] text-white">
           <div className="grid gap-6 p-6">
-            <nav className="grid gap-4">
+            <nav className="grid gap-4 mt-5">
               {navItems.map((navItem: any, idx: number) => (
                 <Link
                   key={`link=${idx}`}
