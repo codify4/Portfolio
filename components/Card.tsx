@@ -18,7 +18,7 @@ const Card = ({ services }: CardProps) => {
             <h3 className="text-2xl font-bold mb-2 text-white">{service.title}</h3>
             <p className="text-4xl font-bold mb-4 text-white">{service.price}</p>
             <p className="text-gray-400 mb-8">per month</p>
-            <ul className="text-left space-y-3 text-white">
+            <ul className="text-left space-y-3 mb-2 text-white">
               {service.description.map((desc, index) => (
                 <li key={index} className="flex items-center">
                   <span className='flex flex-row'>
@@ -27,7 +27,9 @@ const Card = ({ services }: CardProps) => {
                 </li>
               ))}
             </ul>
-            <Button title='Email Me' className='mt-8'/>
+            <a href={`mailto: ${process.env.EMAIL}`} target="_blank">
+              <Button title="Email Me" />
+            </a>
           </div>
         </div>
       ))}
