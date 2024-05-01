@@ -114,3 +114,21 @@ export const socials = [
   { name: "X", icon: "/socials/x.svg", link: "https://twitter.com/Ijon_k4", width: 50, height: 50 },
   { name: "Gihub", icon: "/socials/github.svg", link: "https://github.com/codify4", width: 50, height: 50 },
 ];
+
+export const servicesStarter = [{
+    title: "Starter",
+    description: ["Includes basic NextJS app", "Up to 10 users", "Basic analytics", "Basic support", "Free updates"],
+    price: "$500"
+}]
+
+export const servicesPro = [{
+    title: "Pro",
+    description: ["Multi page app", "Up to 50 users", "Advanced analytics", "Premium support", "Monthly updates"],
+    price: "$1500"
+}]
+
+export const servicesEnterprise = [{
+    title: "Enterprise",
+    description: ["Complex UI/UX", "Unlimited users", "Advanced analytics", "Premium support", "Lifetime updates"],
+    price: "$5000"
+}]
