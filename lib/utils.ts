@@ -117,18 +117,18 @@ export const socials = [
 
 export const servicesStarter = [{
     title: "Starter",
-    description: ["Includes basic NextJS app", "Up to 10 users", "Basic analytics", "Basic support", "Free updates"],
+    description: ["Single-Page Website", "Socials Integration", "Email Integration", "Form Integration", "1 request at a time"],
     price: "$500"
 }]
 
 export const servicesPro = [{
     title: "Pro",
-    description: ["Multi page app", "Up to 50 users", "Advanced analytics", "Premium support", "Monthly updates"],
+    description: ["All of Starter +", "Basic Web App ", "API integration", "Analytics Integration", "1 request at a time"],
     price: "$1500"
 }]
 
 export const servicesEnterprise = [{
     title: "Enterprise",
-    description: ["Complex UI/UX", "Unlimited users", "Advanced analytics", "Premium support", "Lifetime updates"],
-    price: "$5000"
+    description: ["All of Pro +", "Multi-Page web app", "Database integration(if needed)", "Advanced Security", "1 request at a time"],
+    price: "$3000"
 }]

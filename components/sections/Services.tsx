@@ -9,7 +9,7 @@ const Services = () => {
         <h1 className="text-6xl text-white font-bold mb-6 ml-[80px]">Services</h1>
       </FadeInOnScroll>
       <FadeInOnScroll duration={0.6}>
-        <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:px-24 px-10 gap-10">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:px-24 px-10 gap-10 md:justify-items-center">
           <Card services={servicesStarter}/>
           <Card services={servicesPro}/>
           <Card services={servicesEnterprise}/>

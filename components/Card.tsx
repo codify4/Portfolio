@@ -11,7 +11,7 @@ type CardProps = {
 
 const Card = ({ services }: CardProps) => {
   return (
-    <div className='w-full h-full rounded-xl bg-accent p-0.5'>
+    <div className='lg:w-full md:w-[70%] h-full rounded-xl bg-accent p-0.5'>
       {services.map((service) => (
         <div key={service.title} className="bg-black rounded-xl shadow-lg overflow-hidden border-white">
           <div className="px-6 py-8 text-center">
