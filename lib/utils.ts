@@ -97,6 +97,18 @@ export const techLogos = [
     width: 100,
     height: 100,
   },
+  {
+    name: "C++",
+    logo: '/cpp.png',
+    width: 100,
+    height: 100,
+  },
+  {
+    name: "Python",
+    logo: '/python.svg',
+    width: 100,
+    height: 100,
+  },
 ]
 
 export const projects = [
